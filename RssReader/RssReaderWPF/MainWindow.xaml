@@ -1,0 +1,22 @@
+﻿<Window x:Class="RssReaderWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_Manage feeds" Click="MenuItem_Click" />
+                    <MenuItem Header="_Close" />
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <StackPanel Grid.Row="1" x:Name="FeedTabs">
+            <TextBox x:Name="qwe" />
+        </StackPanel>
+    </Grid>
+</Window>

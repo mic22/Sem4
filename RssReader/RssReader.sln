@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssReader", "RssReader\RssReader.csproj", "{CD5E1055-7178-445E-A544-9415D5BE41D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rss", "Rss\Rss.csproj", "{DCE02D09-FCBE-4B9A-8C94-CBB00AB883AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssReaderWPF", "RssReaderWPF\RssReaderWPF.csproj", "{BF4CDA8F-CE1E-4809-A1EE-72C61451856A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5E1055-7178-445E-A544-9415D5BE41D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5E1055-7178-445E-A544-9415D5BE41D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5E1055-7178-445E-A544-9415D5BE41D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5E1055-7178-445E-A544-9415D5BE41D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE02D09-FCBE-4B9A-8C94-CBB00AB883AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE02D09-FCBE-4B9A-8C94-CBB00AB883AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE02D09-FCBE-4B9A-8C94-CBB00AB883AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE02D09-FCBE-4B9A-8C94-CBB00AB883AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4CDA8F-CE1E-4809-A1EE-72C61451856A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4CDA8F-CE1E-4809-A1EE-72C61451856A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4CDA8F-CE1E-4809-A1EE-72C61451856A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4CDA8F-CE1E-4809-A1EE-72C61451856A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
