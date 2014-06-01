@@ -1,0 +1,7 @@
+﻿<MailContentDefinition Footer="ATH Team" xmlns="clr-namespace:Smtp;assembly=Smtp" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <MailContentDefinition.People>
+    <x:Array Type="PersonEntry">
+      <PersonEntry Email="mmm@aa.pl" Firstname="Imie" LastName="nazwisko" />
+    </x:Array>
+  </MailContentDefinition.People>
+</MailContentDefinition>

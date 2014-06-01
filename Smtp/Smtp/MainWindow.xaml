@@ -1,0 +1,13 @@
+﻿<Window x:Class="Smtp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="384*"/>
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="113" FontWeight="Bold" Height="300" Click="Button_Click"/>
+        <TextBox x:Name="Body" HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" TextWrapping="Wrap" Text="Witaj {Firstname}! Nazywasz się też {Lastname}. Pozdrawiam, {Footer}" VerticalAlignment="Top" Width="364" AcceptsReturn="True"/>
+    </Grid>
+</Window>
